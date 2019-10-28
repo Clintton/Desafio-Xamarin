@@ -1,0 +1,25 @@
+-Arquitetura:
+--Foi utilizado o padrão MVVM 
+Onde a view é responsável por exibir as ações expostas pelo ViewModel pra o usuário.
+O ViewModel fica com a resposabilidade de manipular o Model como resultado das ações da view e 
+expor métodos e comandos para a view.
+Já o Model representa o modelo de domínio do aplicativo.
+
+Foi escolhida essa arquitetura para esse sistema pois o padrão MVVM separa a lógica do aplicativo da 
+interface do usuário permitindo uma melhor reutilização do código. É para o problema em questão essa 
+arquitetura ajuda a manter o código organizado, uma vez que os métodos responsáveis por tratar os dados
+da API estão separados do code behind da View.
+ 
+==========================================================================================================================================
+-Bibliotecas:
+--Newtonsoft.Json: utilizado no tratamento dos dados recebidos no formato Json.
+--sqlite-net-pcl:É recomendada pelo Xamarin para criar um modelo ORM simples em sistemas android.
+==========================================================================================================================================
+-Possíveis Melhorias
+--Melhoras os estilos das telas.
+--Refatorar a maneira que recupero os dados do arquivo city.list.json.
+--Melhorar a robustez do programa, uma vez que não implementei um sistema de tratamento de exceções.
+--O aplicativo possui foco somente no Android, restanto implementar algumas soluções especificas para as outras plataformas(UWP,IOS)
+e assim aproveitando o Cross-Plataform.
+--Implementar testes automatizados e assim aproveitando o uso do padrão MVVM que facilita a realização dos testes.
+==========================================================================================================================================
