@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Desafio.View.CityDetail"
+             Title="Detalhes">
+    <ContentPage.Content>
+        <StackLayout>
+                <Switch Margin="20,20,0,0" x:Name="toggle" IsToggled="{Binding Favorita}">
+                </Switch>
+            <StackLayout x:Name="Container" Orientation="Vertical">
+                <Label Text="{Binding cidadeDetalhe.name}"
+                       FontSize="45"
+                       Margin="0,70,0,0"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="CenterAndExpand"
+                             HorizontalOptions="CenterAndExpand"
+                             Spacing="50"
+                             Margin="0,30,0,0">
+                    <Label x:Name="grauLabel"
+                           Text="{Binding TempFormatado}"
+                           FontSize="35"
+                           Margin="10,0,0,0"
+                           VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="StartAndExpand" />
+                    <StackLayout Orientation="Vertical">
+                    <Image Source="{Binding ImagemUrl}"
+                           VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="CenterAndExpand"
+                           WidthRequest="80"
+                           HeightRequest="80"></Image>
+                    <Label Text="{Binding DescricaoFormatada}"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="CenterAndExpand"
+                             HorizontalOptions="CenterAndExpand"
+                             Margin="0,60,0,0">
+                <Label Text="Temp. Mínima"
+                       FontSize="20"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="StartAndExpand" ></Label>
+                <Label Text="{Binding TempMinFormatado}"
+                       FontSize="20"
+                       Margin="10,0,0,0"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="EndAndExpand" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="CenterAndExpand"
+                             HorizontalOptions="CenterAndExpand"
+                             Margin="0,40,0,0">
+                    <Label Text="Temp. Máxima"
+                       FontSize="20"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="StartAndExpand" ></Label>
+                    <Label Text="{Binding TempMaxFormatado}"
+                       FontSize="20"
+                       Margin="10,0,0,0"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="EndAndExpand" />
+                </StackLayout>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

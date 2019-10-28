@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Desafio.View.FavoriteCity"
+             Title="Favoritas">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="search.png" Clicked="ToolbarItem_ClickedAsync"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="CidadesListView"
+                      ItemsSource="{Binding Favoritas}"
+                      ItemSelected="CidadesListView_ItemSelectedAsync">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Nome}" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+                                <Label Text="{Binding Clima}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                <Label Text="{Binding Temperatura}" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

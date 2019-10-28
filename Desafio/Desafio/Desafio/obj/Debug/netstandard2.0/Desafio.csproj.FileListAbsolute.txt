@@ -1,0 +1,15 @@
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\bin\Debug\netstandard2.0\Desafio.deps.json
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\bin\Debug\netstandard2.0\Desafio.dll
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\bin\Debug\netstandard2.0\Desafio.pdb
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.csprojAssemblyReference.cache
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.AssemblyInfoInputs.cache
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.AssemblyInfo.cs
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.dll
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\Desafio.pdb
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\View\CityDetail.xaml.g.cs
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\View\FavoriteCity.xaml.g.cs
+C:\Users\Clinton\Documents\Visual Studio 2017\Projects\Desafio\Desafio\Desafio\obj\Debug\netstandard2.0\View\SelectCity.xaml.g.cs

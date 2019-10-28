@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="View\FavoriteCity.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\SelectCity.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Favoritas\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="View\CityDetail.xaml.cs">
+      <DependentUpon>CityDetailxaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\FavoriteCity.xaml.cs">
+      <DependentUpon>FavoriteCity.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\SelectCity.xaml.cs">
+      <DependentUpon>SelectCity.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
